@@ -7,7 +7,8 @@ const textTL = gsap.timeline();
 
 
 export function textAnimation(){
-    textTL.from("#M",{ duration: 5, drawSVG: "0"}); 
+    textTL.from("#M",{ duration: 5, drawSVG: "0", x:100});
+   // .from("#m-path",{ duration: 5, drawSVG: "0"}); 
 
     return textTL;
 
