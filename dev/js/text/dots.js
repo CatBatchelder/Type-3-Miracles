@@ -45,6 +45,25 @@ export function dotsAnimation(){
             .from("#coval3",{ duration: dotsDrawSpeed, alpha: 0, ease:"none", fill: "#ff0000",  motionPath: { path: "#cpath3", align: "#cpath3", start:1, end:0 }}, "cpath")
             .to("#coval3", {alpha:0}, "lpath")
             
+            .from("#loval1",{ duration: dotsDrawSpeed, alpha: 0, ease:"none", fill: "#ff0000",  motionPath: { path: "#lpath1", align: "#lpath1", start:1, end:0 }}, "apath")
+            .to("#loval1", {alpha:0}, "cpath")
+            .from("#loval2",{ duration: dotsDrawSpeed, alpha: 0, ease:"none", fill: "#ff0000",  motionPath: { path: "#lpath2", align: "#lpath2", start:1, end:0 }}, "cpath")
+            .to("#loval2", {alpha:0}, "lpath")
+            .from("#loval3",{ duration: dotsDrawSpeed, alpha: 0, ease:"none", fill: "#ff0000",  motionPath: { path: "#lpath3", align: "#lpath3", start:1, end:0 }}, "lpath")
+            .to("#loval3", {alpha:0}, "epath")
+
+            .from("#eoval1",{ duration: dotsDrawSpeed, alpha: 0, ease:"none", fill: "#ff0000",  motionPath: { path: "#epath1", align: "#epath1", start:1, end:0 }}, "cpath")
+            .to("#eoval1", {alpha:0}, "lpath")
+            .from("#eoval2",{ duration: dotsDrawSpeed, alpha: 0, ease:"none", fill: "#ff0000",  motionPath: { path: "#epath2", align: "#epath2", start:1, end:0 }}, "lpath")
+            .to("#eoval2", {alpha:0}, "epath")
+            .from("#eoval3",{ duration: dotsDrawSpeed, alpha: 0, ease:"none", fill: "#ff0000",  motionPath: { path: "#epath3", align: "#epath3", start:1, end:0 }}, "epath")
+            .to("#eoval3", {alpha:0}, "spath")
+
+            .from("#soval1",{ duration: dotsDrawSpeed, alpha: 0, ease:"none", fill: "#ff0000",  motionPath: { path: "#spath1", align: "#spath1", start:1, end:0 }}, "epath")
+            .to("#soval1", {alpha:0}, "spath")
+            .from("#soval2",{ duration: dotsDrawSpeed, alpha: 0, ease:"none", fill: "#ff0000",  motionPath: { path: "#spath2", align: "#spath2", start:1, end:0 }}, "spath")
+            .to("#soval2", {alpha:0}, "path")
+        
             ;
  
 
