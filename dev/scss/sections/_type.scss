@@ -6,6 +6,7 @@
     display: grid;
     grid-template-columns: auto 60% auto;
     grid-template-areas: ". type .";
+    //border: 1px solid black;
 
     >div{
         grid-area: type;
@@ -16,6 +17,7 @@
 
         svg{
             width: 100%;
+            border: 1px solid green;
         }
     }
 }

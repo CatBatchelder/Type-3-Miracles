@@ -429,4 +429,5 @@ textarea {
 }
 #type-container > div svg {
   width: 100%;
+  border: 1px solid green;
 }

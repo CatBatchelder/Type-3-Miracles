@@ -8,16 +8,18 @@ const textTL = gsap.timeline();
 
 var textDrawSpeed = 1;
 
+var begTextDrawSpeed = 2;
+
 export function textAnimation(){
-    textTL.from("#mpath1",{ duration: textDrawSpeed, drawSVG: "0", ease:"none"}, "mpath")
-        .from("#mpath2",{ duration: textDrawSpeed, drawSVG: "0", ease:"none"}, "mpath")
-        .from("#mpath3",{ duration: textDrawSpeed, drawSVG: "0", ease:"none"}, "mpath")
+    textTL.from("#mpath1",{ duration: begTextDrawSpeed, drawSVG: "0", ease:"none"}, "mpath")
+        .from("#mpath2",{ duration: begTextDrawSpeed, drawSVG: "0", ease:"none"}, "mpath")
+        .from("#mpath3",{ duration: begTextDrawSpeed, drawSVG: "0", ease:"none"}, "mpath")
         .from("#M",{ duration: textDrawSpeed, alpha:0, ease:"none"}, "ipath")
-        .from("#ipath1",{ duration: textDrawSpeed, drawSVG: "0", ease:"none"}, "mpath")
+        .from("#ipath1",{ duration: begTextDrawSpeed, drawSVG: "0", ease:"none"}, "mpath")
         .from("#ipath2",{ duration: textDrawSpeed, drawSVG: "0", ease:"none"}, "ipath")
         .from("#ipath3",{ duration: textDrawSpeed, drawSVG: "0", ease:"none"}, "ipath")
         .from("#I",{ duration: textDrawSpeed, alpha:0, ease:"none"}, "rpath")
-        .from("#outerrpath2",{ duration: textDrawSpeed, drawSVG: "0", ease:"none"}, "mpath")
+        .from("#outerrpath2",{ duration: textDrawSpeed, drawSVG: "0", ease:"none"}, "ipath")
         .from("#outerrpath1",{ duration: textDrawSpeed, drawSVG: "0", ease:"none"}, "rpath")
         .from("#innerrpath",{ duration: textDrawSpeed, drawSVG: "0", ease:"none"}, "ipath")
         .from("#R",{ duration: textDrawSpeed, alpha:0, ease:"none"}, "apath")
@@ -41,6 +43,8 @@ export function textAnimation(){
         .from("#spath2",{ duration: textDrawSpeed, drawSVG: "0", ease:"none"}, "spath")
         .from("#spath3",{ duration: textDrawSpeed, drawSVG: "0", ease:"none"}, "spath")
         .from("#S",{ duration: textDrawSpeed, alpha:0, ease:"none"})
+        .to("#text", {fill: "#000", duration: 3}, "path")
+        .to("#paths", {stroke: "#000", duration: 3}, "path")
         ;
  
 

@@ -1,0 +1,1 @@
+import{gsap}from"gsap";const zoomTL=gsap.timeline();export function zoomAnimation(){return zoomTL.to("#Page-1",{scale:20}),zoomTL}
