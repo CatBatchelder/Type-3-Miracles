@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>export</key>
+	<array>
+		<dict>
+			<key>date</key>
+			<string>Sunday, November 22, 2020 at 8:38:23 PM Eastern Standard Time</string>
+			<key>fullDate</key>
+			<date>2020-11-23T01:38:23Z</date>
+			<key>resultStr</key>
+			<array>
+				<string>/Users/catherinebatchelder/Desktop/Type 3/11.18_CGB.mov</string>
+			</array>
+			<key>sourceFP</key>
+			<string>2B3V+CilRKSxa68TxCZAUA - 2020-11-23 01:36:42 +0000</string>
+		</dict>
+		<dict>
+			<key>date</key>
+			<string>Tuesday, November 24, 2020 at 1:28:44 PM Eastern Standard Time</string>
+			<key>fullDate</key>
+			<date>2020-11-24T18:28:44Z</date>
+			<key>resultStr</key>
+			<array>
+				<string>/Users/catherinebatchelder/Desktop/Type 3/11.24_CGB.mov</string>
+			</array>
+			<key>sourceFP</key>
+			<string>2B3V+CilRKSxa68TxCZAUA - 2020-11-24 18:27:44 +0000</string>
+		</dict>
+	</array>
+</dict>
+</plist>
